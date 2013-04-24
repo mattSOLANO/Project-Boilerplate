@@ -2,25 +2,26 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/kits\/partials\/footer.kit" : {
+    "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/kits\/partials\/footer.kit",
-      "outputAbbreviatedPath" : "\/kits\/html\/footer.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/css\/screen.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
-    "\/js\/app.js" : {
+    "\/sass\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/app-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/sass\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -42,14 +43,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/font-awesome-ie7.min.css" : {
+    "\/js\/app.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/font-awesome-ie7.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/js\/app.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/app-min.js",
+      "fileType" : 64
     },
     "\/kits\/sample.kit" : {
       "ignoreWasSetByUser" : 0,
@@ -60,17 +63,25 @@
       "outputAbbreviatedPath" : "\/html\/sample.html",
       "fileType" : 65536
     },
-    "\/sass\/_normalize.scss" : {
+    "\/css\/font-awesome-ie7.min.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/css\/font-awesome-ie7.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/jquery-1.8.3.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery-1.8.3.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery-1.8.3.min-min.js",
+      "fileType" : 64
     },
     "\/sass\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -83,17 +94,6 @@
       "outputAbbreviatedPath" : "\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/knockout-2.2.1.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/knockout-2.2.1.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/knockout-2.2.1-min.js",
-      "fileType" : 64
     },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -118,15 +118,15 @@
       "outputAbbreviatedPath" : "\/js\/scripts-min-min.js",
       "fileType" : 64
     },
-    "\/js\/jquery-1.8.3.min.js" : {
+    "\/js\/knockout-2.2.1.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery-1.8.3.min.js",
+      "inputAbbreviatedPath" : "\/js\/knockout-2.2.1.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery-1.8.3.min-min.js",
+      "outputAbbreviatedPath" : "\/js\/knockout-2.2.1-min.js",
       "fileType" : 64
     },
     "\/css\/font-awesome.min.css" : {
@@ -170,14 +170,14 @@
       "outputAbbreviatedPath" : "\/kits\/html\/header.html",
       "fileType" : 65536
     },
-    "\/css\/screen.css" : {
+    "\/kits\/partials\/footer.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/screen.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/kits\/partials\/footer.kit",
+      "outputAbbreviatedPath" : "\/kits\/html\/footer.html",
+      "fileType" : 65536
     }
   },
   "manualImportLinks" : [

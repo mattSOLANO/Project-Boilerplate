@@ -50,6 +50,37 @@ HTML is written in _.kit_ files
 * _screen.js_ should contain all self written jQuery code. The "document ready" is already there so no need to add another one.
 * The two files are then combined and minified. This can be prevented during development to assist in debugging.
 
+
+## Tool/Software Recommedations
+
+###### [CodeKit](http://incident57.com/codekit/ "CodeKit")
+* Compiles, combines, minifies, reloads... Just use it.
+
+###### [MAMP](http://www.mamp.info/en/index.html "MAMP")
+* Not required for this boilerplate, but a local server may be needed down the line.
+
+###### [Sublime Text](http://www.sublimetext.com/ "Sublime Text")
+* Our text editor of choice.
+* Here are some recommended packages to install:
+	* [Sublime Package Control](http://wbond.net/sublime_packages/package_control "Sublime Package Control")
+	* BracketHighlighter
+	* ColorPick
+	* Emmet
+	* jQuery
+	* Markdown Preview
+	* Sass
+	* SidebarEnhancements
+	* Sublime-KnockoutJS-Snippets
+	* SublimeCodeIntel
+	* SublimeLinter
+
+###### [Versions](http://versionsapp.com/ "Versions")
+* Source control used to work with Subversion
+
+###### [Kaleidoscope](http://www.kaleidoscopeapp.com/ "Kaleidoscope")
+* Comparison tool
+
+
 ## General Things to follow
 
 ##### HTML
