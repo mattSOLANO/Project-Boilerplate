@@ -1,0 +1,1 @@
+$(function(){});var SOMERANDOM_ViewModel={};ko.applyBindings(SOMERANDOM_ViewModel);
