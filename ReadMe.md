@@ -1,4 +1,4 @@
-# New Project Guidelines
+# Project Boilerplate Guidelines
 
 Basic rules-of-thumb for coding and setup
 
@@ -6,7 +6,7 @@ Basic rules-of-thumb for coding and setup
 
 ## Installation
 
-1. Copy this folder ('NewProject') and rename it
+1. Download, clone, fork... whatever the cool kids do these days
 2. Add project to Codekit
 3. Once added, right-click on project and go to 'Project Settings > Apply project defaults from file...'
 4. Select the file 'codekit-config.json'
