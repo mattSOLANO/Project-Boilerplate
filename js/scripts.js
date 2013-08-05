@@ -1,5 +1,3 @@
-// @codekit-append "knockout-2.2.1.js"
-
 $(function(){
 
 
@@ -16,5 +14,5 @@ $(function(){
 
 }); // End of Document Ready
 
-
+//@codekit-prepend "/vendor/knockout-2.2.1.js";
 // @codekit-append "app.js"

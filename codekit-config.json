@@ -182,26 +182,15 @@
       "outputAbbreviatedPath" : "\/js\/app-min.js",
       "fileType" : 64
     },
-    "\/js\/vendor\/matchmedia.js" : {
+    "\/js\/vendor\/knockout-2.2.1.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/matchmedia.js",
+      "inputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/matchmedia-min.js",
-      "fileType" : 64
-    },
-    "\/js\/vendor\/respond-1.1.0.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/respond-1.1.0.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/respond-1.1.0.min-min.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1-min.js",
       "fileType" : 64
     },
     "\/js\/vendor\/vendor-min.js" : {
@@ -215,15 +204,24 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/vendor-min-min.js",
       "fileType" : 64
     },
-    "\/js\/vendor\/knockout-2.2.1.js" : {
+    "\/kits\/partials\/footer.kit" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1.js",
+      "inputAbbreviatedPath" : "\/kits\/partials\/footer.kit",
+      "outputAbbreviatedPath" : "\/kits\/html\/footer.html",
+      "fileType" : 65536
+    },
+    "\/js\/vendor\/matchmedia.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/matchmedia.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1-min.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/matchmedia-min.js",
       "fileType" : 64
     },
     "\/js\/vendor\/selectivizr-min.js" : {
@@ -237,14 +235,16 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/selectivizr-min-min.js",
       "fileType" : 64
     },
-    "\/kits\/partials\/footer.kit" : {
+    "\/js\/vendor\/respond-1.1.0.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/kits\/partials\/footer.kit",
-      "outputAbbreviatedPath" : "\/kits\/html\/footer.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/js\/vendor\/respond-1.1.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/respond-1.1.0.min-min.js",
+      "fileType" : 64
     },
     "\/sass\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -257,17 +257,6 @@
       "outputAbbreviatedPath" : "\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-min.js",
-      "fileType" : 64
     }
   },
   "manualImportLinks" : [
