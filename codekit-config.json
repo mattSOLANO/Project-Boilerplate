@@ -171,17 +171,6 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min-min.js",
       "fileType" : 64
     },
-    "\/js\/app.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/app-min.js",
-      "fileType" : 64
-    },
     "\/js\/vendor\/knockout-2.2.1.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -189,8 +178,19 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1-min.js",
+      "fileType" : 64
+    },
+    "\/js\/vendor\/matchmedia.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/matchmedia.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/matchmedia-min.js",
       "fileType" : 64
     },
     "\/js\/vendor\/vendor-min.js" : {
@@ -213,15 +213,15 @@
       "outputAbbreviatedPath" : "\/kits\/html\/footer.html",
       "fileType" : 65536
     },
-    "\/js\/vendor\/matchmedia.js" : {
+    "\/js\/app.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/matchmedia.js",
+      "inputAbbreviatedPath" : "\/js\/app.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/matchmedia-min.js",
+      "outputAbbreviatedPath" : "\/js\/app-min.js",
       "fileType" : 64
     },
     "\/js\/vendor\/selectivizr-min.js" : {
@@ -231,7 +231,7 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/vendor\/selectivizr-min.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/vendor\/selectivizr-min-min.js",
       "fileType" : 64
     },

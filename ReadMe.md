@@ -54,6 +54,7 @@ HTML is written in _.kit_ files
 * _app.js_ is where the Knockout code should be written
 * _screen.js_ should contain all self written jQuery code. The "document ready" is already there so no need to add another one.
 * The two files are then concatenated and minified. This can be prevented during development to assist in debugging.
+* jQuery UI is purposely not included here by default. If it is necessary, we should create a custom build with only the components that are necessary for the project to keep the file size down.
 
 
 ## Tool/Software Recommedations
