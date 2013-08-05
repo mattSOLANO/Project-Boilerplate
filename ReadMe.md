@@ -27,6 +27,10 @@ As much as possible, try to stick with the following structures
 	* Define what links, headers, etc. look like
 	* Also try keeping any font related styles and coloring in this doc
 
+* __font-awesome.min.scss_
+	* Permits the use of the _font awesome_ icon font
+	* Requires that the font files in the _font_ folder also be included
+
 * _screen.css_
 	* The previous css files are pulled into this one
 	* Global Styles - Buttons, Lists, Clear Float/Fix, Tooltips, etc.
@@ -46,6 +50,7 @@ HTML is written in _.kit_ files
 
 ### Javascript
 * Vendor plugins intended for the _<head>_ section of the page are stored in the _js/vendor_ folder and are concatenated automatically to the _vendor-min.js_ file by adding their filenames to the _vendor.js_ file. This convention assumes the use of minified plugins.
+* Vendor plugins that are to be loaded at the bottom of the page are also stored in the _js/vendor_ folder, but their filenames should be added to the top of the _scripts.js_ file. Again, this convention assumes the use of minfied plugin code.
 * _app.js_ is where the Knockout code should be written
 * _screen.js_ should contain all self written jQuery code. The "document ready" is already there so no need to add another one.
 * The two files are then concatenated and minified. This can be prevented during development to assist in debugging.

@@ -2,15 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8317",
   "files" : {
-    "\/css\/font-awesome.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/font-awesome.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -103,6 +94,18 @@
       "inputAbbreviatedPath" : "\/html\/sample.html",
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
+    },
+    "\/sass\/_font-awesome.min.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_font-awesome.min.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_font-awesome.min.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/vendor\/ jquery-1.9.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -201,17 +204,6 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/respond-1.1.0.min-min.js",
       "fileType" : 64
     },
-    "\/js\/vendor\/knockout-2.2.1.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1-min.js",
-      "fileType" : 64
-    },
     "\/js\/vendor\/vendor-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -221,6 +213,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/vendor\/vendor-min-min.js",
+      "fileType" : 64
+    },
+    "\/js\/vendor\/knockout-2.2.1.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1-min.js",
       "fileType" : 64
     },
     "\/js\/vendor\/selectivizr-min.js" : {
