@@ -27,6 +27,10 @@ As much as possible, try to stick with the following structures
 	* Define what links, headers, etc. look like
 	* Also try keeping any font related styles and coloring in this doc
 
+* __font-awesome.min.scss_
+	* Permits the use of the _font awesome_ icon font
+	* Requires that the font files in the _font_ folder also be included
+
 * _screen.css_
 	* The previous css files are pulled into this one
 	* Global Styles - Buttons, Lists, Clear Float/Fix, Tooltips, etc.
@@ -45,10 +49,12 @@ HTML is written in _.kit_ files
 * _sample.kit_ is an example of what a typical page may look like. Already contains links to common js libraries.
 
 ### Javascript
-
+* Vendor plugins intended for the _<head>_ section of the page are stored in the _js/vendor_ folder and are concatenated automatically to the _vendor-min.js_ file by adding their filenames to the _vendor.js_ file. This convention assumes the use of minified plugins.
+* Vendor plugins that are to be loaded at the bottom of the page are also stored in the _js/vendor_ folder, but their filenames should be added to the top of the _scripts.js_ file. Again, this convention assumes the use of minfied plugin code.
 * _app.js_ is where the Knockout code should be written
 * _screen.js_ should contain all self written jQuery code. The "document ready" is already there so no need to add another one.
-* The two files are then combined and minified. This can be prevented during development to assist in debugging.
+* The two files are then concatenated and minified. This can be prevented during development to assist in debugging.
+* jQuery UI is purposely not included here by default. If it is necessary, we should create a custom build with only the components that are necessary for the project to keep the file size down.
 
 
 ## Tool/Software Recommedations
@@ -89,7 +95,7 @@ HTML is written in _.kit_ files
 
 2. **Avoid ID's.** Classes should be used when there is a need to target something for CSS. Back-end code will sometimes add dynamic ID's to important elements. Sticking with classes prevents conflicts in case that needs to be done.
 
-3. Putting a block-level element inside and inline element may still work in some smarter browsers, but will make others go berserk.
+3. Putting a block-level element inside an inline element may still work in some smarter browsers, but will make others go berserk.
 
 4. **Links vs. Buttons** If clicking on an element will eventually submit user info to the server, use a button or input[type="submit"]. If that element is only meant to bring the user to another page, use an 'a' tag.
 

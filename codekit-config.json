@@ -55,6 +55,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/js\/vendor\/vendor.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/vendor.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/vendor\/vendor-min.js",
+      "fileType" : 64
+    },
     "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -81,8 +92,31 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/html\/sample.html",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
+    },
+    "\/sass\/_font-awesome.min.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/_font-awesome.min.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_font-awesome.min.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/js\/vendor\/ jquery-1.9.1.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/ jquery-1.9.1.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/ jquery-1.9.1.min-min.js",
+      "fileType" : 64
     },
     "\/kits\/sample.kit" : {
       "ignoreWasSetByUser" : 0,
@@ -128,14 +162,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/config.rb" : {
+
+    "\/js\/vendor\/modernizr-2.6.2.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
+
+      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2.min-min.js",
+      "fileType" : 64
     },
     "\/js\/app.js" : {
       "ignoreWasSetByUser" : 0,
@@ -148,35 +186,49 @@
       "outputAbbreviatedPath" : "\/js\/app-min.js",
       "fileType" : 64
     },
-    "\/css\/font-awesome.min.css" : {
+    "\/js\/vendor\/matchmedia.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/font-awesome.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/js\/vendor\/matchmedia.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/matchmedia-min.js",
+      "fileType" : 64
+    },
+    "\/js\/vendor\/vendor-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/vendor-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/vendor-min-min.js",
+      "fileType" : 64
+    },
+
+    "\/js\/vendor\/respond-1.1.0.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/respond-1.1.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/respond-1.1.0.min-min.js",
+      "fileType" : 64
     },
     "\/js\/vendor\/knockout-2.2.1.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/vendor\/knockout-2.2.1-min.js",
-      "fileType" : 64
-    },
-    "\/js\/vendor\/respond.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/respond.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/respond.min-min.js",
       "fileType" : 64
     },
     "\/kits\/partials\/footer.kit" : {
@@ -195,9 +247,18 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/vendor\/selectivizr-min.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
+      "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/vendor\/selectivizr-min-min.js",
       "fileType" : 64
+    },
+    "\/kits\/partials\/footer.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/kits\/partials\/footer.kit",
+      "outputAbbreviatedPath" : "\/kits\/html\/footer.html",
+      "fileType" : 65536
     },
     "\/sass\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -210,17 +271,6 @@
       "outputAbbreviatedPath" : "\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min-min.js",
-      "fileType" : 64
     }
   },
   "manualImportLinks" : [
@@ -298,7 +348,8 @@
       "curly" : 1,
       "trailing" : 1,
       "nonew" : 1,
-      "es3" : false,
+
+      "es3" : 0,
       "yui" : 0,
       "mootools" : 0,
       "proto" : 0,
@@ -313,7 +364,8 @@
       "wsh" : 0,
       "nonstandard" : 0,
       "asi" : 0,
-      "moz" : false,
+
+      "moz" : 0,
       "rhino" : 0,
       "smarttabs" : 0,
       "lastsemic" : 0,
@@ -355,11 +407,12 @@
       "vars" : 0,
       "sub" : 0,
       "stupid" : 0,
-      "continue" : false,
+
+      "continue" : 0,
       "bitwise" : 0,
       "newcap" : 0,
       "sloppy" : 0,
-      "closure" : false,
+      "closure" : 0,
       "es5" : 0,
       "browser" : 1,
       "properties" : 0,
@@ -370,8 +423,9 @@
       "evil" : 0,
       "node" : 0,
       "rhino" : 0,
-      "ass" : false,
-      "devel" : 0
+
+      "devel" : 0,
+      "ass" : 0
     },
     "uglifyFlags" : {
       "no-mangle-functions" : 0,
@@ -380,8 +434,8 @@
       "no-dead-code" : 0,
       "inline-script" : 0,
       "ascii" : 0,
-      "mangle-toplevel" : 0,
       "unsafe" : 0,
+      "mangle-toplevel" : 0,
       "no-seqs" : 1,
       "beautify" : 0,
       "lift-vars" : 0,
